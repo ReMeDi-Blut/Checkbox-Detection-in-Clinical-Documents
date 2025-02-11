@@ -3,7 +3,7 @@
 This repository provides a complete pipeline for detecting, clustering, and extracting checked categories from accumulations of checkboxes either from PDFs or image files. The pipeline works in two main stages:
 
 1. **Detection and Clustering:**  
-   - Uses a YOLO checkbox detection model (via [YOLOv8]https://github.com/LynnHaDo/Checkbox-Detection) to detect checkboxes in an input PDF or image.
+   - Uses a YOLO checkbox detection model (via ([YOLOv8]https://github.com/LynnHaDo/Checkbox-Detection)) to detect checkboxes in an input PDF or image.
    - Clusters the detected checkboxes using DBSCAN with customizable vertical and horizontal thresholds.
    - Extracts cropped cluster images that span the full width of checkbox areas.
 
